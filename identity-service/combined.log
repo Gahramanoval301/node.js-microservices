@@ -65,3 +65,5 @@
 {"level":"info","message":"Request body,  [object Object]","service":"identity-service","timestamp":"2025-07-19T18:42:14.461Z"}
 {"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-07-19T18:42:14.467Z"}
 {"buffer":{"data":[104,123,231,6,76,226,54,237,30,45,200,116],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-07-19T18:42:15.030Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-07-19T18:45:54.532Z"}
+{"level":"info","message":"Connected to the mongo db","service":"identity-service","timestamp":"2025-07-19T18:45:56.630Z"}
