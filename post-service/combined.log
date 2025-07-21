@@ -335,3 +335,17 @@
 {"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-21T16:40:11.055Z"}
 {"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-21T16:40:13.253Z"}
 {"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-21T16:40:15.070Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-21T16:40:16.574Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-21T16:40:18.511Z"}
+{"level":"info","message":"Received GET request to /api/posts/687e65c0f7cebe015a504684","service":"post-service","timestamp":"2025-07-21T16:40:46.724Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-21T16:40:46.725Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/687e65c0f7cebe015a504684","service":"post-service","timestamp":"2025-07-21T16:40:54.998Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-21T16:40:54.999Z"}
+{"level":"info","message":"Received GET request to /api/posts/687e65c0f7cebe015a504684","service":"post-service","timestamp":"2025-07-21T16:41:02.835Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-21T16:41:02.836Z"}
+{"level":"info","message":"Received GET request to /api/posts/687e65c0f7cebe015a504684","service":"post-service","timestamp":"2025-07-21T16:41:07.787Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-21T16:41:07.789Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-07-21T16:41:40.119Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-21T16:41:40.120Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-07-21T16:41:54.601Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-21T16:41:54.602Z"}

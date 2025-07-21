@@ -14,7 +14,7 @@ const logger = winston.createLogger({
         winston.format.json()
     ),
     //metadata which service we are using 
-    defaultMeta: {service:"post-service"},
+    defaultMeta: {service:"media-service"},
     // this will specify output destination for our logs
     transports:[
         //make output in console in colorized and simple format
