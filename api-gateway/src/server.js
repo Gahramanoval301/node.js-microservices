@@ -110,8 +110,9 @@ app.use(
   proxy(process.env.MEDIA_SERVICE_URL, {
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      console.log(srcReq.headers["content-type"]);
       proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
-      if (!srcReq.headers["content-type"].startsWith("multipart/form-data")) {
+      if (!(srcReq.headers["content-type"].startsWith("multipart/form-data"))) {
         proxyReqOpts.headers["Content-Type"] = "application/json";
       }
 

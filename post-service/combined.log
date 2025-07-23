@@ -349,3 +349,175 @@
 {"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-21T16:41:40.120Z"}
 {"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-07-21T16:41:54.601Z"}
 {"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-21T16:41:54.602Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"api-gateway","timestamp":"2025-07-23T16:01:14.337Z"}
+{"level":"info","message":"Connected to the mongo db","service":"api-gateway","timestamp":"2025-07-23T16:01:16.796Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"pos-gateway","timestamp":"2025-07-23T16:01:22.947Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:01:25.915Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:01:27.958Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-07-23T16:13:58.937Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T16:13:58.944Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-07-23T16:13:58.949Z"}
+{"0":"\"","1":"m","10":" ","11":"i","12":"s","13":" ","14":"n","15":"o","16":"t","17":" ","18":"a","19":"l","2":"e","20":"l","21":"o","22":"w","23":"e","24":"d","3":"d","4":"i","5":"a","6":"I","7":"d","8":"s","9":"\"","level":"warn","message":"Validation error","service":"post-service","timestamp":"2025-07-23T16:13:58.968Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:14:38.353Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:14:40.447Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:14:46.851Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:14:48.988Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:14:52.933Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-07-23T16:14:53.496Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T16:14:53.498Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-07-23T16:14:53.501Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:14:55.112Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":false,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"68810a7dca494888e17f8d2f","content":"5th post content. It is content. ","createdAt":"2025-07-23T16:14:53.522Z","mediaIds":["688108dcb6b6e6c13ad84df4"],"updatedAt":"2025-07-23T16:14:53.522Z","user":"687be7064ce236ed1e2dc874"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null,"validationError":null},"$isNew":false,"_doc":{"__v":0,"_id":"68810a7dca494888e17f8d2f","content":"5th post content. It is content. ","createdAt":"2025-07-23T16:14:53.522Z","mediaIds":["688108dcb6b6e6c13ad84df4"],"updatedAt":"2025-07-23T16:14:53.522Z","user":"687be7064ce236ed1e2dc874"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-07-23T16:14:55.578Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-07-23T16:15:25.584Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T16:15:25.587Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:33:50.345Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:33:52.652Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:37:38.959Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:37:41.392Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:38:45.206Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:38:47.945Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:38:49.828Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:38:52.276Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:38:54.583Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:38:58.143Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:39:01.612Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:39:03.622Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:39:30.424Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:39:32.738Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:39:34.708Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:39:37.674Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:39:39.666Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:39:43.278Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:39:45.353Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:40:57.353Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:40:59.364Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:41:08.116Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:41:12.765Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:41:14.498Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:41:16.534Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:41:21.673Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:41:23.674Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:41:35.308Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:41:37.427Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:41:42.915Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:41:45.002Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:41:56.768Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:41:58.663Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:42:03.644Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:42:05.631Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:42:10.283Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:42:12.209Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:42:21.358Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:42:23.567Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:42:29.803Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:42:33.640Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:42:35.704Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:42:38.007Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:43:18.815Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:43:20.954Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:43:24.260Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:43:26.195Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:43:34.954Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:43:37.028Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:44:16.010Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:44:18.094Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:44:26.510Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:44:28.742Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:44:31.870Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:44:33.815Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:44:36.920Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:44:38.926Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:44:41.655Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:44:44.244Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:44:46.263Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:45:45.059Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:45:48.595Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:45:54.035Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:45:56.185Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:46:04.725Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:46:15.680Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:46:22.329Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:46:37.418Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T16:46:42.835Z"}
+{"level":"info","message":"Identity service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:46:42.854Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:46:44.656Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T16:47:36.517Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T16:47:36.533Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T16:47:38.586Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:14:08.400Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:14:08.410Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:14:10.396Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:14:34.056Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:14:34.062Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:14:35.750Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:14:42.629Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:14:42.638Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:14:44.457Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:14:46.327Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:14:46.333Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:14:48.121Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:15:10.957Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:15:10.963Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:15:13.228Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:15:13.233Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:15:16.061Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:15:16.066Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:15:17.868Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:16:56.295Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:16:56.301Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:16:58.280Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:17:00.213Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:17:00.219Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:17:01.990Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:17:10.817Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:17:10.824Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:17:12.667Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:17:16.322Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:17:16.330Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:17:31.965Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:17:31.975Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:17:33.699Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:17:36.883Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:17:36.889Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:17:38.771Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:17:38.781Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:17:41.229Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:17:41.234Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:17:42.651Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:17:42.658Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:17:44.156Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:17:44.162Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:17:45.858Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:18:25.946Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:18:25.954Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:18:27.979Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:18:31.142Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:18:31.148Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:18:32.879Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:18:32.889Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"post-service","timestamp":"2025-07-23T17:18:34.094Z"}
+{"level":"info","message":"Post service running on port 3002","service":"post-service","timestamp":"2025-07-23T17:18:34.102Z"}
+{"level":"info","message":"Connected to the mongo db","service":"post-service","timestamp":"2025-07-23T17:18:35.896Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-07-23T17:54:26.873Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T17:54:26.873Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-07-23T17:54:26.875Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":false,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"688121d2088d42d9b8709a1a","content":"New post with image ","createdAt":"2025-07-23T17:54:26.887Z","mediaIds":["688121a05967ed111a73aa9c"],"updatedAt":"2025-07-23T17:54:26.887Z","user":"687be7064ce236ed1e2dc874"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null,"validationError":null},"$isNew":false,"_doc":{"__v":0,"_id":"688121d2088d42d9b8709a1a","content":"New post with image ","createdAt":"2025-07-23T17:54:26.887Z","mediaIds":["688121a05967ed111a73aa9c"],"updatedAt":"2025-07-23T17:54:26.887Z","user":"687be7064ce236ed1e2dc874"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-07-23T17:54:27.261Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-07-23T17:55:43.775Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T17:55:43.775Z"}
+{"level":"info","message":"Received GET request to /api/posts/688121d2088d42d9b8709a1a","service":"post-service","timestamp":"2025-07-23T17:56:11.765Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T17:56:11.765Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/688121d2088d42d9b8709a1a","service":"post-service","timestamp":"2025-07-23T17:57:14.833Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T17:57:14.834Z"}
+{"level":"info","message":"Published message to post.deleted exchange","service":"post-service","timestamp":"2025-07-23T17:57:15.016Z"}
+{"level":"info","message":"Received GET request to /api/posts/688121d2088d42d9b8709a1a","service":"post-service","timestamp":"2025-07-23T18:40:40.007Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T18:40:40.008Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-07-23T18:41:40.224Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T18:41:40.225Z"}
+{"level":"info","message":"Create post endpoint hit","service":"post-service","timestamp":"2025-07-23T18:41:40.226Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true},"modify":{"content":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":false,"op":null,"pathsToScopes":{"mediaIds":{"__v":0,"_id":"68812ce4088d42d9b8709a22","content":"Leman content  ","createdAt":"2025-07-23T18:41:40.230Z","mediaIds":["68812cca900eabf1f52b14bc"],"updatedAt":"2025-07-23T18:41:40.230Z","user":"687be7064ce236ed1e2dc874"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null,"validationError":null},"$isNew":false,"_doc":{"__v":0,"_id":"68812ce4088d42d9b8709a22","content":"Leman content  ","createdAt":"2025-07-23T18:41:40.230Z","mediaIds":["68812cca900eabf1f52b14bc"],"updatedAt":"2025-07-23T18:41:40.230Z","user":"687be7064ce236ed1e2dc874"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-07-23T18:41:40.641Z"}
+{"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-07-23T18:41:55.678Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T18:41:55.679Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/68812ce4088d42d9b8709a22","service":"post-service","timestamp":"2025-07-23T18:42:10.381Z"}
+{"level":"info","message":"Request body,  [object Object]","service":"post-service","timestamp":"2025-07-23T18:42:10.382Z"}
+{"level":"info","message":"Published message to post.deleted exchange","service":"post-service","timestamp":"2025-07-23T18:42:10.643Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-07-23T18:48:16.825Z"}

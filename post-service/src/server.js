@@ -6,22 +6,21 @@ const Redis = require("ioredis");
 const cors = require("cors");
 const helmet = require("helmet");
 
-
 const postRoutes = require("./routes/post-routes");
-const errorHandler = require("./middleware/errorHandler")
+const errorHandler = require("./middleware/errorHandler");
 const logger = require("./utils/logger");
+const { connectToRabbitMQ } = require("./utils/rabbitmq");
 
 const app = express();
 const PORT = process.env.PORT || 3002;
 
-//connect to mongodb - bookstore api 
+//connect to mongodb - bookstore api
 mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => logger.info("Connected to the mongo db"))
   .catch((e) => logger.error("Mongo conenction error: ", e));
 
 const redisClient = new Redis(process.env.REDIS_URL);
-
 
 //middleware
 app.use(helmet());
@@ -52,18 +51,31 @@ app.use((req, res, next) => {
 //   }),
 // });
 
-
 //routes -> pass redisClient to routes
-app.use("/api/posts", (req, res, next)=>{
+app.use(
+  "/api/posts",
+  (req, res, next) => {
     req.redisClient = redisClient;
     next();
-}, postRoutes);
+  },
+  postRoutes
+);
 
 app.use(errorHandler);
 
-app.listen(PORT, () => {
-  logger.info(`Identity service running on port ${PORT}`);
-});
+async function startServer() {
+  try {
+    await connectToRabbitMQ();
+    app.listen(PORT, () => {
+      logger.info(`Post service running on port ${PORT}`);
+    });
+  } catch (error) {
+    logger.error("Error starting server: ", error);
+    process.exit(1);
+  }
+}
+
+startServer();
 
 //undhandled promise rejection
 process.on("unhandledRejection", (reason, promise) => {
