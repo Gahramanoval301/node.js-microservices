@@ -10,21 +10,22 @@ const handlePostDeleted = async (event) => {
 
   //it will not only post, delete media from cloudinary, and delete fetch images api
   const { postId, userId, mediaIds } = event;
+  //just deketion from database and mongodb
   try {
     const mediaToDelete = await Media.find({ _id: { $in: mediaIds } });
     console.log("mediaToDelete", mediaToDelete, mediaIds);
     for (const media of mediaToDelete) {
       console.log("1lemannnnnnnnnnnnnnnnnnnnnnnnnnnnnn", media);
+
       //delete from cloudinary
       await deleteMediaFromCloudinary(media.publicId);
-      console.log("2lemannnnnnnnnnnnnnnnnnnnnnnnnnnnnn", media);
 
       //delete from monngo db database
       await Media.findByIdAndDelete(media._id);
       console.log("media delete");
 
       logger.info(
-        `Deleted media ${media._id} associated with this deleted post ${postId}`
+        `Deleted media {some media id} associated with this deleted post ${postId}`
       );
     }
     logger.info(`process deletion of media for post id ${postId}`);

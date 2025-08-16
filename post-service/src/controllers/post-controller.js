@@ -143,6 +143,7 @@ const deletePost = async (req, res) => {
       userId: req.user.userId.toString(),
       mediaIds: post.mediaIds,
     });
+    
     await invalidatePostCache(req, postId);
 
     res.json({
